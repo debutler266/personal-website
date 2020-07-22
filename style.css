@@ -65,3 +65,33 @@ a.active, .nav a:hover {
 .d {
   width: 90%;
 }
+
+.content {
+  position: absolute;
+  width: 930px;
+  min-height: 500px;
+  height: auto;
+  right: 0;
+  top: 10%;
+}
+
+.home {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  color: #fff;
+  font-family: verdana;
+}
+
+.home h1 {
+  font-size: 95px;
+  padding-right: 90px;
+  border-bottom: 1px solid #fff;
+  text-transform: uppercase;
+}
+
+.home h3 {
+  font-size: 27px;
+  padding: 5px 0;
+  opacity: 0.6;
+}
