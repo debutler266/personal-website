@@ -48,6 +48,31 @@ h4 {
   font-weight: 700;
 }
 
+/* default hides music player */
+#aplayer {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 -2px 2px #dadada;
+  background-color: #fff;
+  transition: all ease 0.5s;
+}
+
+#aplayer.showPlayer {
+  bottom: 0;
+}
+
+.title h1 {
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
+
 /* Music player customization */
 span {
   color: #000 !important;

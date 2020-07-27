@@ -1,3 +1,17 @@
+  //Click on album poster to get songs ID
+$(".album-poster").on('click', function(e){
+  var dataSwitchId = $(this).attr('data-switch');
+  //console.log(dataSwitchId);
+
+  //APlayer switch function
+  ap.list.switch(dataSwitchId);
+
+  //click on songs to play
+  ap.play();
+  $("#aplayer").addClass('showPlayer');
+});
+
+
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     listFolded: true,
