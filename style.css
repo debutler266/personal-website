@@ -85,8 +85,8 @@ a.active, .nav a:hover {
 
 .home {
   position: absolute;
-  right: 0;
-  bottom: -50px;
+  right: 200px;
+  bottom: -150px;
   color: #fff;
   font-family: verdana;
 }
@@ -96,29 +96,34 @@ a.active, .nav a:hover {
   padding-right: 90px;
   border-bottom: 1px solid #fff;
   text-transform: uppercase;
+
 }
 
 .home h3 {
   font-size: 27px;
   padding: 5px 0;
   opacity: 0.6;
+
 }
 
 .aboutme {
-  position: absolute;
-  right: 0;
+  position: relative;
+  right: 150px; /*Effects true positioning of paragraph/ same with other areas right is used */
   top: 10px;
   color: #fff;
   font-family: century gothic;
-  padding: 0 60px;
+  padding: 0 60px 0 60px;
   display: none;
+  text-align: center;
+  align-items: center;
 }
 
 .aboutme p {
 font-size: 18px;
-line-height: 28px;
+line-height: 35px;
 margin-bottom: 15px;
 font-weight: bold;
+text-align: center;
 }
 
 .gallery {
