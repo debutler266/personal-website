@@ -201,6 +201,86 @@ text-align: center;
 
 }
 
+/*Contact */
+.contact {
+  width: 100%;
+  max-width: 1400px;
+  padding: 50px;
+  display: inline-block;
+
+  flex-wrap: wrap;
+  display: none;
+}
+
+h2 {
+  width: 100%;
+  margin-bottom: 80px;
+  color: #fff;
+  font-size: 60px;
+  padding-left: 75px;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.item {
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.item a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.item a:hover {
+  color: #dec909;
+}
+
+.item i:hover {
+  color: #dec909;
+}
+
+
+.icon {
+  width: 80px;
+  height: 60px;
+  line-height: 40px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  color: #fff;
+}
+
+/* Label Subsciption Button */
+.myButton {
+	background-color:#44c767;
+	-webkit-border-radius:28px;
+	-moz-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:17px;
+	padding:16px 31px;
+  margin-left: 95px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*Footer */
 .footer {
    position: fixed;
    left: 0;
@@ -210,3 +290,8 @@ text-align: center;
    color: white;
    text-align: center;
 }
+
+
+
+
+/*media queries for Mobile responsiveness */
