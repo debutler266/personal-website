@@ -207,17 +207,17 @@ text-align: center;
   max-width: 1400px;
   padding: 50px;
   display: inline-block;
-
   flex-wrap: wrap;
   display: none;
 }
 
 h2 {
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 83px;
   color: #fff;
   font-size: 60px;
-  padding-left: 75px;
+  padding-left: 50px;
+  text-decoration: underline;
 }
 
 .contact-info {
@@ -226,7 +226,7 @@ h2 {
 
 .item {
   margin-bottom: 15px;
-  font-size: 25px;
+  font-size: 21px;
   color: #fff;
 }
 
@@ -266,8 +266,8 @@ h2 {
 	color:#ffffff;
 	font-family:Georgia;
 	font-size:17px;
-	padding:16px 31px;
-  margin-left: 576px;
+	padding:25px 31px;
+  margin-left: 105px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
 }
@@ -365,10 +365,11 @@ h2 {
 
   .gallery .image {
     width: 38%;
+    padding-left: 70px;
   }
 
   .gallery .ml3 {
-    padding-left: 425px;
+    padding-left: 595px;
   }
 
   .gallery2 .video {
@@ -382,14 +383,29 @@ h2 {
 
   .contact h2 {
     margin-top: 50px;
-  }
-
-
-.contact h2 {
-  margin-left: 450px;
+    margin-left: 355px;
   }
 
   .contact .contact-info .item {
-    padding-left: 489px;
+    padding-left: 405px;
+  }
+
+  .myButton {
+    margin-left: 482px;
   }
 }
+
+@media only screen and (min-width: 325px) (max-width: 375px) {
+  .gallery .ml3 {
+    padding-left: 690px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .gallery .ml3 {
+    padding-left: 765px;
+  }
+}
+
+
+/* @media only screen and (max-width: 375px)
