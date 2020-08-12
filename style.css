@@ -230,9 +230,14 @@ h2 {
   color: #fff;
 }
 
+.contact .contact-info .item {
+  padding-left: 100px;
+}
+
 .item a {
   text-decoration: underline;
   color: #fff;
+  background-color: transparent; /*removes annoying white active state border when link is clicked */
 }
 
 .item a:hover {
@@ -243,6 +248,9 @@ h2 {
   color: #dec909;
 }
 
+.item a:active {
+  background-color: transparent;
+}
 
 .icon {
   width: 80px;
@@ -267,7 +275,7 @@ h2 {
 	font-family:Georgia;
 	font-size:17px;
 	padding:25px 31px;
-  margin-left: 105px;
+  margin-left: 125px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
 }
@@ -387,7 +395,7 @@ h2 {
   }
 
   .contact .contact-info .item {
-    padding-left: 405px;
+    padding-left: 470px;
   }
 
   .myButton {
