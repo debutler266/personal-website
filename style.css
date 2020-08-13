@@ -312,7 +312,9 @@ h2 {
 
 /*media queries for Mobile responsiveness */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .nav a {
     font-size: 10px;
     width: auto;
@@ -390,6 +392,14 @@ h2 {
 
   .gallery2 .video {
     width: 38%;
+
+  }
+
+  .video video {
+    width: 100%;
+    overflow: hidden;
+    outline: none;
+    border: none;
   }
 
   .gallery2 .ml4 {
@@ -419,7 +429,7 @@ h2 {
 
 @media only screen and (max-width: 425px) and (min-width: 375px) {
   .gallery .ml3 {
-    padding-left: 600px;
+    padding-left: 540px;
   }
 }
 
