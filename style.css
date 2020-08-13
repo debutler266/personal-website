@@ -388,6 +388,7 @@ h2 {
 
   .gallery .ml3 {
     padding-left: 595px;
+    display: none;
   }
 
   .gallery2 .video {
@@ -405,6 +406,7 @@ h2 {
   .gallery2 .ml4 {
     padding-left: 450px;
     margin-top: 50px;
+    display: none;
   }
 
   .contact h2 {
