@@ -393,7 +393,7 @@ h2 {
   }
 
   .gallery2 .ml4 {
-    padding-left: 450px;
+    padding-left: 487px;
     margin-top: 50px;
   }
 
@@ -417,9 +417,9 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 425px) {
+@media only screen and (max-width: 425px) and (min-width: 375px) {
   .gallery .ml3 {
-    padding-left: 765px;
+    padding-left: 600px;
   }
 }
 
